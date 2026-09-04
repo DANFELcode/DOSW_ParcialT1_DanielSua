@@ -31,8 +31,7 @@
 | **Título** | Notificar al usuario al momento de validar su reserva |
 | **Descripción** | *Como tutor me gustaria que se notificara al usuario al momento de validar la reserva para poder avisarle al solicitante que se agendo un espacio para el* |
 | **Prioridad** | Media |
-| **Justificación** |  |
-| **Estimación** |  |
+
 
 
 
@@ -42,8 +41,7 @@
 | **Título** | El sistema debe tener reglas para la gestion y toma de tutorias |
 | **Descripción** | *Como tutor  quiero que el sistema impida al usuario poder tomar tomas tutorias de mas del tiempo establecido para poder garantizar que se respete mi tiempo y lo que se definio antes* |
 | **Prioridad** | Media |
-| **Justificación** |  |
-| **Estimación** | |
+
 
 | Campo | Descripción |
 |------|-------------|
@@ -51,8 +49,7 @@
 | **Título** | El sistema debe retornar al solicitante el mejor tutor disponible |
 | **Descripción** | *Como solicitante quiero que el sistema me retorne el mejor tutor basado en los tres criterios para poder tomar mi tutoria de manera adecuada y personalizada para mi* |
 | **Prioridad** | Alta |
-| **Justificación** |  |
-| **Estimación** |  |
+
 
 
 
@@ -65,6 +62,10 @@
 #### Espacio Jira
 [espacio_jira](https://daniel-dosw.atlassian.net/jira/software/projects/TUT/boards/34/backlog?atlOrigin=eyJpIjoiZTU1YmU3YTg3NjQwNGM2Mjg3MTMyMTJjYTY1YzYwMjgiLCJwIjoiaiJ9)
 
+
+![alt text](images/image.png)
+![alt text](images/image-1.png)
+![alt text](images/image-2.png)
 
 ## Diseño de Software y Patrones
 
