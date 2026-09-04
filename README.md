@@ -56,4 +56,15 @@
 
 
 
+**Diagrama de casos de uso**
+![casos_uso](docs/casos.png)
+
+
+## Planeacion agile
+
+#### Espacio Jira
+[espacio_jira](https://daniel-dosw.atlassian.net/jira/software/projects/TUT/boards/34/backlog?atlOrigin=eyJpIjoiZTU1YmU3YTg3NjQwNGM2Mjg3MTMyMTJjYTY1YzYwMjgiLCJwIjoiaiJ9)
+
+
+
 
