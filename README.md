@@ -66,5 +66,18 @@
 [espacio_jira](https://daniel-dosw.atlassian.net/jira/software/projects/TUT/boards/34/backlog?atlOrigin=eyJpIjoiZTU1YmU3YTg3NjQwNGM2Mjg3MTMyMTJjYTY1YzYwMjgiLCJwIjoiaiJ9)
 
 
+## Diseño de Software y Patrones
 
+Para la estrategia de seleccion de preferencia se puede aplicar el patron de comportamiento strategy esto ya que tenemos distintas formas u opciones de un algoritmo dentro de la seleccion y necesitamos que el sistema pueda cambiar de una opcion a otra durante la ejecucion, cada diferente tipo de seleccion de preferencia se añade una estrategia concreta para resolverla evitando tener una clase monstruosa
+
+Para aislar la interoperabilidad con sistemas externos usaria adapter ya que si tenemos muchos sistemas externos muchos de ellos podrian no ser compatibles con nuestro codigo, una interfaz que haga de intermediario entre el sistema externo y el propio permitiria poder usar las funcionaludades externas pero con nuestro sistema ya implementado, evitando tener que rehacer todo nuestro codigo en funcion del sistema externo
+
+
+### Diagrama de clases 
+
+
+![diagram](docs/uml/class_diagram.png)
+
+
+Estoy aplicando los principios solid de single responsability porque cada clase se encarga de una sola responsabilidad en este caso la estrategia que usan también uso interface segregation principle porque bajo este orden ninguna clase que implemente una interfaz se ve obligado a usar metodos que no necesita, en este caso todas usan excute_strategy()
 
